@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h2 {
+  text-align: center;
+  color: dodgerblue;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 5px;
+}
+
+.input-section button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li button {
+  margin-left: auto;
+  padding: 3px 7px;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
